@@ -5,17 +5,15 @@ import "./style.css";
 function employee (props) {
   //Condition if statement and Map function to loop through array
 
- 
-
   return (
     <div>
       {props.employeeList.length ? (
         <ul className="list-group">
-          <h2>Employee Directory</h2>
         
           {props.employeeList.map(result => (
             <li className="list-group-item" key={result.id}>
-              <b>{result.firstName}</b> {result.lastName} {result.email} {result.dateOfBirth}
+              <div id="name"><b>{result.firstName} {result.lastName}</b> ({result.type})</div> 
+              <div id="other"><i>Contact:</i> {result.email} </div>
             </li>
           ))}
         </ul >

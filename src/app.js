@@ -67,7 +67,7 @@ class App extends Component {
 	render(){
 		return( 
 			
-		<div>
+		<div stylle = "text-align: center">
 		
 		<Form 
 		firstName={this.state.firstName}
@@ -75,11 +75,11 @@ class App extends Component {
 		handleInputChange={this.handleInputChange}
 		handleFormSubmit={this.handleFormSubmit}
 		/> 
-	
+			
 			<button onClick={
 				this.sortName
 			}>Alphabetize Name</button>
-
+			
 		<Employee employeeList={this.state.sorted}/>
 		
 		</div>

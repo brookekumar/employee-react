@@ -22,6 +22,10 @@ The user should be able to:
 
   * Filter the users by at least one property.
 
+## For the record...
+
+The alphabetize button is under construction :)
+
 ````````````````````````
 ````````````````````````
 
