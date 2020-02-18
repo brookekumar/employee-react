@@ -26,6 +26,9 @@ The user should be able to:
 
 The alphabetize button is under construction :)
 
+## repo:
+https://github.com/brookekumar/employee-react
+
 ````````````````````````
 ````````````````````````
 
